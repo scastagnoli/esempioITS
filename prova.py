@@ -1,2 +1,2 @@
-tabellina = [x*2 for x in range(1,11)]
+tabellina = [x*3 for x in range(1,11)]
 print(tabellina)
