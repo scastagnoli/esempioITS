@@ -12,7 +12,7 @@ pipeline {
             }
             steps {
                 echo "prova.py è stato modificato. Eseguo la pipeline."
-                sh "python prova.py"
+                sh "python3 prova.py"
             }
         }
     }
