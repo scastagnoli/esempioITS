@@ -34,7 +34,7 @@ pipeline {
             steps {
                 echo "prova.py è stato modificato su Git. Eseguo la pipeline."
                 // Assumo che l'agent abbia Python nel PATH
-                sh "python prova.py"
+                sh "python3 prova.py"
             }
         }
     }
